@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.title {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2b323c;
+    color: #fff;
+}
+
+.title h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+span {
+    color: #fff724;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button {
+    background-color: blue;
+    padding: 8px;
+    border-radius: 6px;
+}
